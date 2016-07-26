@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: com.cucumber.MavenCucumberPrototype.CucumberRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 101, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 337.604 sec <<< FAILURE!
+Then I should be on same page(Scenario: Verifying user is on the same page while clicking on search button without enetring text)  Time elapsed: 0.058 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at com.cucumber.MavenCucumberPrototype.StepDefinition.i_should_be_on_same_page(StepDefinition.java:210)
+	at ✽.Then I should be on same page(myFeature.feature:121)
+
+Scenario: Verifying user is on the same page while clicking on search button without enetring text  Time elapsed: 0.058 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at com.cucumber.MavenCucumberPrototype.StepDefinition.i_should_be_on_same_page(StepDefinition.java:210)
+	at ✽.Then I should be on same page(myFeature.feature:121)
+
+Then I should be on same page(Scenario: Verifying user is on the same page while clicking on the search button after entering space)  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at com.cucumber.MavenCucumberPrototype.StepDefinition.i_should_be_on_same_page(StepDefinition.java:210)
+	at ✽.Then I should be on same page(myFeature.feature:129)
+
+Scenario: Verifying user is on the same page while clicking on the search button after entering space  Time elapsed: 0.001 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at com.cucumber.MavenCucumberPrototype.StepDefinition.i_should_be_on_same_page(StepDefinition.java:210)
+	at ✽.Then I should be on same page(myFeature.feature:129)
+

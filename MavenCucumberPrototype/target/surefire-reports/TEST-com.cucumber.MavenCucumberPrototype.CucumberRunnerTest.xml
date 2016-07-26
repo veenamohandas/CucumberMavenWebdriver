@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="4" time="0.263" errors="0" skipped="0" tests="101" name="com.cucumber.MavenCucumberPrototype.CucumberRunnerTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="24.60-b09"/>
+    <property name="user.country.format" value="IN"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/naveen/Documents/workspace/MavenCucumberPrototype"/>
+    <property name="java.runtime.version" value="1.7.0_60-b19"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/pd/shs2b8qs00g2hr1xq4cr7v4h0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/naveen/Documents/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf232390874835618296.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/naveen/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.10.2"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|dl-ssl.google.com|*.dl-ssl.google.com"/>
+    <property name="user.home" value="/Users/naveen"/>
+    <property name="user.timezone" value="Europe/Stockholm"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="naveen"/>
+    <property name="java.class.path" value="/Users/naveen/Downloads/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.5.1.20150109-1819/jars/plexus-classworlds-2.5.1.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_60"/>
+    <property name="java.ext.dirs" value="/Users/naveen/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/naveen/Documents/workspace/MavenCucumberPrototype/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|dl-ssl.google.com|*.dl-ssl.google.com"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|dl-ssl.google.com|*.dl-ssl.google.com"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.122" classname="Scenario: Checking whether search icon is displayed or not in Unibet Home page" name="Given I am on unibet home page"/>
+  <testcase time="0.001" classname="Scenario: Checking whether search icon is displayed or not in Unibet Home page" name="When I mousehover on the search icon"/>
+  <testcase time="0" classname="Scenario: Checking whether search icon is displayed or not in Unibet Home page" name="Then I should be able to see textbox and search button"/>
+  <testcase time="0" classname="Scenario: Checking whether search icon is displayed or not in Unibet Home page" name="When I click on the search icon"/>
+  <testcase time="0" classname="Scenario: Checking whether search icon is displayed or not in Unibet Home page" name="Then I should be able to see textbox and search button"/>
+  <testcase time="0.001" classname="Scenario: Checking whether search icon is displayed or not in Unibet Home page" name="Scenario: Checking whether search icon is displayed or not in Unibet Home page"/>
+  <testcase time="0.001" classname="Scenario: Checking the order of textbox and search button in Unibet Home Page" name="Given I am on unibet home page"/>
+  <testcase time="0.001" classname="Scenario: Checking the order of textbox and search button in Unibet Home Page" name="When I mousehover on the search icon"/>
+  <testcase time="0" classname="Scenario: Checking the order of textbox and search button in Unibet Home Page" name="Then I should be able to see textfox first and then search button"/>
+  <testcase time="0.001" classname="Scenario: Checking the order of textbox and search button in Unibet Home Page" name="Scenario: Checking the order of textbox and search button in Unibet Home Page"/>
+  <testcase time="0" classname="Scenario: Verifying the color and text of search button in Unibet Home Page" name="Given I am on unibet home page"/>
+  <testcase time="0" classname="Scenario: Verifying the color and text of search button in Unibet Home Page" name="When I mousehover on the search icon"/>
+  <testcase time="0" classname="Scenario: Verifying the color and text of search button in Unibet Home Page" name="Then I should be able to see search button color as yellow and textcolr as black"/>
+  <testcase time="0" classname="Scenario: Verifying the color and text of search button in Unibet Home Page" name="And I should be able to see text search on the search button"/>
+  <testcase time="0" classname="Scenario: Verifying the color and text of search button in Unibet Home Page" name="Scenario: Verifying the color and text of search button in Unibet Home Page"/>
+  <testcase time="0" classname="Scenario: Verifying the validaty of search result by clicking on search button." name="Given I am on unibet home page"/>
+  <testcase time="0" classname="Scenario: Verifying the validaty of search result by clicking on search button." name="When I mousehover on the search icon"/>
+  <testcase time="0" classname="Scenario: Verifying the validaty of search result by clicking on search button." name="When I enter &quot;Golf&quot; on search text box"/>
+  <testcase time="0" classname="Scenario: Verifying the validaty of search result by clicking on search button." name="When I click on Search button"/>
+  <testcase time="0" classname="Scenario: Verifying the validaty of search result by clicking on search button." name="Then I should be on search results page"/>
+  <testcase time="0" classname="Scenario: Verifying the validaty of search result by clicking on search button." name="And I should be able to see the &quot;Golf&quot; in either description or header of the search results."/>
+  <testcase time="0" classname="Scenario: Verifying the validaty of search result by clicking on search button." name="Scenario: Verifying the validaty of search result by clicking on search button."/>
+  <testcase time="0" classname="Scenario: Verifying the validaty of search result when the search words are having diffrent meanings." name="Given I am on unibet home page"/>
+  <testcase time="0" classname="Scenario: Verifying the validaty of search result when the search words are having diffrent meanings." name="When I mousehover on the search icon"/>
+  <testcase time="0" classname="Scenario: Verifying the validaty of search result when the search words are having diffrent meanings." name="When I enter &quot;US sports&quot; on search text box"/>
+  <testcase time="0" classname="Scenario: Verifying the validaty of search result when the search words are having diffrent meanings." name="When I click on Search button"/>
+  <testcase time="0" classname="Scenario: Verifying the validaty of search result when the search words are having diffrent meanings." name="Then I should be on search results page"/>
+  <testcase time="0" classname="Scenario: Verifying the validaty of search result when the search words are having diffrent meanings." name="And I should be able to match the result &quot;US,sport,America&quot; in either description or header of the search results."/>
+  <testcase time="0" classname="Scenario: Verifying the validaty of search result when the search words are having diffrent meanings." name="Scenario: Verifying the validaty of search result when the search words are having diffrent meanings."/>
+  <testcase time="0" classname="Scenario: Verifying the validaty of search result by pressing enter key and clicking on the result links." name="Given I am on unibet home page"/>
+  <testcase time="0" classname="Scenario: Verifying the validaty of search result by pressing enter key and clicking on the result links." name="When I mousehover on the search icon"/>
+  <testcase time="0.001" classname="Scenario: Verifying the validaty of search result by pressing enter key and clicking on the result links." name="When I enter &quot;Football&quot; on search text box"/>
+  <testcase time="0" classname="Scenario: Verifying the validaty of search result by pressing enter key and clicking on the result links." name="When I click on Enter key in keyboard"/>
+  <testcase time="0" classname="Scenario: Verifying the validaty of search result by pressing enter key and clicking on the result links." name="Then I should be on search results page"/>
+  <testcase time="0" classname="Scenario: Verifying the validaty of search result by pressing enter key and clicking on the result links." name="And I should be able to see the &quot;Football&quot; in either description or header of the search results."/>
+  <testcase time="0" classname="Scenario: Verifying the validaty of search result by pressing enter key and clicking on the result links." name="And I should be able to click on search result links"/>
+  <testcase time="0.014" classname="Scenario: Verifying the validaty of search result by pressing enter key and clicking on the result links." name="Scenario: Verifying the validaty of search result by pressing enter key and clicking on the result links."/>
+  <testcase time="0" classname="Scenario: Verifying maximum number of results in the first page is &quot;10&quot;" name="Given I am on unibet home page"/>
+  <testcase time="0" classname="Scenario: Verifying maximum number of results in the first page is &quot;10&quot;" name="When I mousehover on the search icon"/>
+  <testcase time="0" classname="Scenario: Verifying maximum number of results in the first page is &quot;10&quot;" name="When I enter &quot;Football&quot; on search text box"/>
+  <testcase time="0" classname="Scenario: Verifying maximum number of results in the first page is &quot;10&quot;" name="When I click on Search button"/>
+  <testcase time="0" classname="Scenario: Verifying maximum number of results in the first page is &quot;10&quot;" name="Then I should be able to see maximum &quot;10&quot; results in the Page."/>
+  <testcase time="0.001" classname="Scenario: Verifying maximum number of results in the first page is &quot;10&quot;" name="Scenario: Verifying maximum number of results in the first page is &quot;10&quot;"/>
+  <testcase time="0" classname="Scenario: Verifying maximum number of results page is &quot;10&quot;" name="Given I am on unibet home page"/>
+  <testcase time="0" classname="Scenario: Verifying maximum number of results page is &quot;10&quot;" name="When I mousehover on the search icon"/>
+  <testcase time="0" classname="Scenario: Verifying maximum number of results page is &quot;10&quot;" name="When I enter &quot;Football&quot; on search text box"/>
+  <testcase time="0.001" classname="Scenario: Verifying maximum number of results page is &quot;10&quot;" name="When I click on Search button"/>
+  <testcase time="0" classname="Scenario: Verifying maximum number of results page is &quot;10&quot;" name="Then I should be able to see maximum &quot;10&quot; pages of reults."/>
+  <testcase time="0" classname="Scenario: Verifying maximum number of results page is &quot;10&quot;" name="When I click on the &quot;1&quot; page"/>
+  <testcase time="0" classname="Scenario: Verifying maximum number of results page is &quot;10&quot;" name="Then I should be able to see maximum &quot;10&quot; results in the Page."/>
+  <testcase time="0" classname="Scenario: Verifying maximum number of results page is &quot;10&quot;" name="When I click on the &quot;2&quot; page"/>
+  <testcase time="0" classname="Scenario: Verifying maximum number of results page is &quot;10&quot;" name="Then I should be able to see maximum &quot;10&quot; results in the Page."/>
+  <testcase time="0" classname="Scenario: Verifying maximum number of results page is &quot;10&quot;" name="When I click on the &quot;3&quot; page"/>
+  <testcase time="0" classname="Scenario: Verifying maximum number of results page is &quot;10&quot;" name="Then I should be able to see maximum &quot;10&quot; results in the Page."/>
+  <testcase time="0" classname="Scenario: Verifying maximum number of results page is &quot;10&quot;" name="When I click on the &quot;4&quot; page"/>
+  <testcase time="0" classname="Scenario: Verifying maximum number of results page is &quot;10&quot;" name="Then I should be able to see maximum &quot;10&quot; results in the Page."/>
+  <testcase time="0" classname="Scenario: Verifying maximum number of results page is &quot;10&quot;" name="When I click on the &quot;5&quot; page"/>
+  <testcase time="0" classname="Scenario: Verifying maximum number of results page is &quot;10&quot;" name="Then I should be able to see maximum &quot;10&quot; results in the Page."/>
+  <testcase time="0" classname="Scenario: Verifying maximum number of results page is &quot;10&quot;" name="When I click on the &quot;6&quot; page"/>
+  <testcase time="0" classname="Scenario: Verifying maximum number of results page is &quot;10&quot;" name="Then I should be able to see maximum &quot;10&quot; results in the Page."/>
+  <testcase time="0" classname="Scenario: Verifying maximum number of results page is &quot;10&quot;" name="When I click on the &quot;7&quot; page"/>
+  <testcase time="0" classname="Scenario: Verifying maximum number of results page is &quot;10&quot;" name="Then I should be able to see maximum &quot;10&quot; results in the Page."/>
+  <testcase time="0" classname="Scenario: Verifying maximum number of results page is &quot;10&quot;" name="When I click on the &quot;8&quot; page"/>
+  <testcase time="0" classname="Scenario: Verifying maximum number of results page is &quot;10&quot;" name="Then I should be able to see maximum &quot;10&quot; results in the Page."/>
+  <testcase time="0" classname="Scenario: Verifying maximum number of results page is &quot;10&quot;" name="When I click on the &quot;9&quot; page"/>
+  <testcase time="0" classname="Scenario: Verifying maximum number of results page is &quot;10&quot;" name="Then I should be able to see maximum &quot;10&quot; results in the Page."/>
+  <testcase time="0" classname="Scenario: Verifying maximum number of results page is &quot;10&quot;" name="Scenario: Verifying maximum number of results page is &quot;10&quot;"/>
+  <testcase time="0" classname="Scenario: Verifying the correct spelling for misspeld words in search results page" name="Given I am on unibet home page"/>
+  <testcase time="0" classname="Scenario: Verifying the correct spelling for misspeld words in search results page" name="When I mousehover on the search icon"/>
+  <testcase time="0" classname="Scenario: Verifying the correct spelling for misspeld words in search results page" name="When I enter &quot;Gofl&quot; on search text box"/>
+  <testcase time="0" classname="Scenario: Verifying the correct spelling for misspeld words in search results page" name="When I click on Search button"/>
+  <testcase time="0.001" classname="Scenario: Verifying the correct spelling for misspeld words in search results page" name="Then I should be able to see &quot;Showing results for Golf&quot; text in search results page"/>
+  <testcase time="0" classname="Scenario: Verifying the correct spelling for misspeld words in search results page" name="And I should be able to see &quot;Search instead for Gofl&quot; text in the search results page"/>
+  <testcase time="0" classname="Scenario: Verifying the correct spelling for misspeld words in search results page" name="When I click on &quot;Golf&quot; link"/>
+  <testcase time="0" classname="Scenario: Verifying the correct spelling for misspeld words in search results page" name="Then I should be on search results page of &quot;Golf&quot;"/>
+  <testcase time="0" classname="Scenario: Verifying the correct spelling for misspeld words in search results page" name="When I navigate back to Unibet home page"/>
+  <testcase time="0" classname="Scenario: Verifying the correct spelling for misspeld words in search results page" name="When I mousehover on the search icon"/>
+  <testcase time="0" classname="Scenario: Verifying the correct spelling for misspeld words in search results page" name="When I enter &quot;Gofl&quot; on search text box"/>
+  <testcase time="0" classname="Scenario: Verifying the correct spelling for misspeld words in search results page" name="When I click on Search button"/>
+  <testcase time="0" classname="Scenario: Verifying the correct spelling for misspeld words in search results page" name="Then I should be able to see &quot;Showing results for Golf&quot; text in search results page"/>
+  <testcase time="0" classname="Scenario: Verifying the correct spelling for misspeld words in search results page" name="And I should be able to see &quot;Search instead for Gofl&quot; text in the search results page"/>
+  <testcase time="0" classname="Scenario: Verifying the correct spelling for misspeld words in search results page" name="When I click on &quot;Gofl&quot; link"/>
+  <testcase time="0" classname="Scenario: Verifying the correct spelling for misspeld words in search results page" name="Then I should be on &quot;No Results&quot; page"/>
+  <testcase time="0.001" classname="Scenario: Verifying the correct spelling for misspeld words in search results page" name="Scenario: Verifying the correct spelling for misspeld words in search results page"/>
+  <testcase time="0" classname="Scenario: Verifying &quot;No Results&quot; page is displaying for invalid string search" name="Given I am on unibet home page"/>
+  <testcase time="0" classname="Scenario: Verifying &quot;No Results&quot; page is displaying for invalid string search" name="When I mousehover on the search icon"/>
+  <testcase time="0" classname="Scenario: Verifying &quot;No Results&quot; page is displaying for invalid string search" name="When I enter &quot;()()()()&quot; on search text box"/>
+  <testcase time="0" classname="Scenario: Verifying &quot;No Results&quot; page is displaying for invalid string search" name="When I click on Search button"/>
+  <testcase time="0" classname="Scenario: Verifying &quot;No Results&quot; page is displaying for invalid string search" name="Then I should be landed on &quot;No Results&quot; page"/>
+  <testcase time="0" classname="Scenario: Verifying &quot;No Results&quot; page is displaying for invalid string search" name="Scenario: Verifying &quot;No Results&quot; page is displaying for invalid string search"/>
+  <testcase time="0" classname="Scenario: Verifying user is on the same page while clicking on search button without enetring text" name="Given I am on unibet home page"/>
+  <testcase time="0" classname="Scenario: Verifying user is on the same page while clicking on search button without enetring text" name="When I mousehover on the search icon"/>
+  <testcase time="0" classname="Scenario: Verifying user is on the same page while clicking on search button without enetring text" name="When I click on Search button"/>
+  <testcase time="0.058" classname="Scenario: Verifying user is on the same page while clicking on search button without enetring text" name="Then I should be on same page">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at com.cucumber.MavenCucumberPrototype.StepDefinition.i_should_be_on_same_page(StepDefinition.java:210)
+	at ✽.Then I should be on same page(myFeature.feature:121)
+</failure>
+  </testcase>
+  <testcase time="0.058" classname="Scenario: Verifying user is on the same page while clicking on search button without enetring text" name="Scenario: Verifying user is on the same page while clicking on search button without enetring text">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at com.cucumber.MavenCucumberPrototype.StepDefinition.i_should_be_on_same_page(StepDefinition.java:210)
+	at ✽.Then I should be on same page(myFeature.feature:121)
+</failure>
+  </testcase>
+  <testcase time="0" classname="Scenario: Verifying user is on the same page while clicking on the search button after entering space" name="Given I am on unibet home page"/>
+  <testcase time="0" classname="Scenario: Verifying user is on the same page while clicking on the search button after entering space" name="When I mousehover on the search icon"/>
+  <testcase time="0" classname="Scenario: Verifying user is on the same page while clicking on the search button after entering space" name="When I enter two space on the search text box"/>
+  <testcase time="0" classname="Scenario: Verifying user is on the same page while clicking on the search button after entering space" name="When I click on Search button"/>
+  <testcase time="0" classname="Scenario: Verifying user is on the same page while clicking on the search button after entering space" name="Then I should be on same page">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at com.cucumber.MavenCucumberPrototype.StepDefinition.i_should_be_on_same_page(StepDefinition.java:210)
+	at ✽.Then I should be on same page(myFeature.feature:129)
+</failure>
+  </testcase>
+  <testcase time="0.001" classname="Scenario: Verifying user is on the same page while clicking on the search button after entering space" name="Scenario: Verifying user is on the same page while clicking on the search button after entering space">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at com.cucumber.MavenCucumberPrototype.StepDefinition.i_should_be_on_same_page(StepDefinition.java:210)
+	at ✽.Then I should be on same page(myFeature.feature:129)
+</failure>
+  </testcase>
+</testsuite>
